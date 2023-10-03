@@ -1,2 +1,2 @@
 #!/bin/bash
-POWER="$(($BREATH**$LOVE))\n"
+echo "$(($BREATH**$LOVE))"
