@@ -1,0 +1,2 @@
+#!/bin/bash
+CONVERTER="$((2#${BINARY}))\n"
