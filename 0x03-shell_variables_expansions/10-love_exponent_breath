@@ -1,0 +1,2 @@
+#!/bin/bash
+POWER="$(($BREATH**$LOVE))\n"
