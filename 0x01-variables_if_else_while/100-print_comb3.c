@@ -1,29 +1,26 @@
 #include <stdio.h>
+
 /**
- * main - The main entry point of the program.
- *
- * This function serves as the entry point for the program.
- * It initializes the kernel and performs the main processing tasks.
- *
- * Return: 0 on success, an error code on failure.
+ * main - prints all possible different combinations of two digits
+ * Return: ALways 0 (Success)
  */
 int main(void)
 {
-	int i;
-	int j;
+	int n, m;
 
-	for (i = 48; i <= 57; i++)
+	for (n = 48; n <= 56; n++)
 	{
-		for (j = 57; j >= 48; j--)
+		for (m = 49; m <= 57; m++)
 		{
-			if (i != j)
-			{	putchar(i);
-				putchar(j);
-			}
-			if (i < 56 && j < 57)
+			if (m > n)
 			{
-				putchar(',');
-				putchar(' ');
+				putchar(n);
+				putchar(m);
+				if (n != 56 || m != 57)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
