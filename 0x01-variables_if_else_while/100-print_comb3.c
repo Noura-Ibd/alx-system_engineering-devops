@@ -9,13 +9,22 @@
  */
 int main(void)
 {
-	int ch;
+	int i;
+	int j;
 
-	for (ch = 97; ch <= 122; ch++)
+	for (i = 48; i <= 57; i++)
 	{
-		if (ch != 113 && ch != 101)
+		for (j = 57; j >= 48; j--)
 		{
-			putchar(ch);
+			if (i != j)
+			{	putchar(i);
+				putchar(j);
+			}
+			if (i < 56 && j < 57)
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
 	}
 	putchar('\n');
