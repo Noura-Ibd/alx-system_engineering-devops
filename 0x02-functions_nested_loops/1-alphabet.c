@@ -1,16 +1,12 @@
 #include  <stdio.h>
 /**
- * main - The main entry point of the program.
- *
- * This function serves as the entry point for the program.
- * It initializes the kernel and performs the main processing tasks.
+ * print_alphabet - print all alphabet in lowercase
  *
  * Return: 0 on success, an error code on failure.
  */
-void print_alphabet(void);
-int main(void)
+void print_alphabet(void)
 {
-	int ch;
+	char ch;
 
 	for (ch = 97; ch < 122; ch++)
 	{
