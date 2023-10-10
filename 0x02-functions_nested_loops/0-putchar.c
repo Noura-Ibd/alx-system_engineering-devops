@@ -1,14 +1,21 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * main - The main entry point of the program.
- *
- * This function serves as the entry point for the program.
- * It initializes the kernel and performs the main processing tasks.
- *
- * Return: 0 on success, an error code on failure.
+ * main - print _putchar
+ * is written by mbah
+ * Return: 0
  */
+
 int main(void)
 {
-	printf("_putchar\n");
-	return (0);
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
+return (0);
 }
+
