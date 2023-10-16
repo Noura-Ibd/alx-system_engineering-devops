@@ -2,8 +2,6 @@
 /**
  * swap_int - swaps the values of int a and int b
  *
- * @temp: is a variable that store temporarily the value pointed to by a
- *
  * @a: first int
  *
  * @b: second int
