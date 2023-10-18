@@ -1,0 +1,1 @@
+ pinters_arrays_strings
